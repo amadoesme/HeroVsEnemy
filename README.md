@@ -1,68 +1,80 @@
-Hero vs Enemy – Python Game (Pygame)
+# Hero vs Enemy – Python Arcade Game (Pygame)
 
-A 2D arcade-style shooting game built using Python and Pygame. This project was developed during my Game Development Mentorship internship and used to teach programming concepts to middle and high school students.
+A 2D arcade-style shooting game built using Python and Pygame.  
+Originally developed during my Game Development Mentorship internship and used to teach programming concepts to middle and high school students.
 
-Overview
+---
 
-Hero vs Enemy is a simple real-time game that demonstrates:
+## Project Overview
 
-Game state management (Menu, Playing, Game Over)
+Hero vs Enemy is a real-time arcade game that demonstrates:
 
-Event-driven programming
+- Game state management (MENU, PLAYING, GAME_OVER)
+- Event-driven programming
+- Collision detection
+- Timer-based enemy respawning
+- Score and high score tracking
+- Life system with visual indicators
+- Sound integration using Pygame mixer
+- Frame rate control using a structured game loop
 
-Collision detection
+This project reinforces structured problem-solving and interactive system design.
 
-Timer-based enemy respawning
+---
 
-Score and high score tracking
+## Technologies Used
 
-Life system with visual indicators
+- Python
+- Pygame
+- Object-based game architecture
+- Event handling and animation loops
+- State machine logic
 
-Sound integration using Pygame mixer
+---
 
-Technologies Used
+## Key Features
 
-Python
+- Multiple enemies with independent state tracking
+- Explosion animations with delay timers
+- Persistent session high score tracking
+- Button-driven UI interaction
+- Real-time input handling
+- Structured main game loop
 
-Pygame
+---
 
-Object-based game architecture
+## Educational Purpose
 
-Event handling and animation loops
+This project was created to reinforce core computer science concepts, including:
 
-Key Features
+- Loops and conditional logic
+- State machines
+- Event handling
+- Modular problem solving
+- Object interactions
 
-Multiple enemies with independent state tracking
+The project was later translated into Java to practice generics and recursion introduced in Data Structures coursework.
 
-Explosion animations with delay logic
+---
 
-Persistent high score tracking during session
+## Running the Game
 
-Button-driven UI interaction
+### Install Pygame
 
-Frame rate control using clock ticks
-
-Educational Impact
-
-This project was originally created to reinforce core computer science concepts such as:
-
-Loops and conditional logic
-
-State machines
-
-Event handling
-
-Modular problem solving
-
-The project was also translated into Java to practice generics and recursion concepts introduced in CS 2013 (Data Structures).
-
-Running the Game
-
-Install pygame:
-
+```bash
 pip install pygame
+```
 
+### Run
 
-Run:
-
+```bash
 python hero_vs_enemy.py
+```
+
+---
+
+## Author
+
+Esmeralda Amado  
+Computer Science | Minor in Biomedical Engineering  
+Focused on AI systems, computer vision and applied software development.
